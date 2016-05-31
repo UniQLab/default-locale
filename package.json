@@ -1,0 +1,35 @@
+{
+  "name": "default-locale",
+  "version": "0.1.0",
+  "description": "Try to localize your application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniQLab/default-locale.git"
+  },
+  "keywords": [
+    "locale"
+  ],
+  "author": "Alexander Dadukin",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test --reporter spec"
+  },
+  "bugs": {
+    "url": "https://github.com/UniQLab/default-locale/issues"
+  },
+  "homepage": "https://github.com/UniQLab/default-locale#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-react": "^4.1.0",
+    "mocha": "^2.5.3"
+  }
+}
