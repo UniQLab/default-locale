@@ -1,1 +1,1 @@
-module.exports = require('./lib/services/localeService');
+module.exports = require('./lib/core/localeCore');

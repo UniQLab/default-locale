@@ -1,6 +1,6 @@
 {
   "name": "default-locale",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Try to localize your application",
   "main": "index.js",
   "directories": {
@@ -13,17 +13,19 @@
   "keywords": [
     "locale"
   ],
-  "author": "Alexander Dadukin",
+  "author": "Alexander Dadukin & Andrey Pavlov",
   "license": "MIT",
   "scripts": {
-    "test": "mocha test --reporter spec"
+    "test": "mocha tests --reporter spec"
   },
   "bugs": {
     "url": "https://github.com/UniQLab/default-locale/issues"
   },
   "homepage": "https://github.com/UniQLab/default-locale#readme",
   "dependencies": {
-    "underscore": "^1.8.3"
+    "string-builder": "^0.1.4",
+    "underscore": "^1.8.3",
+    "validatron": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
