@@ -5,9 +5,21 @@
 [![dependencies](https://david-dm.org/UniQLab/default-locale.svg)](https://david-dm.org/UniQLab/ddefault-locale)
 [![license](https://img.shields.io/npm/l/default-locale.svg)](https://github.com/UniQLab/default-locale/blob/master/LICENSE)
 
+**default-locale** - is a tool that helps you to add multilanguage option in your web application.
+
 ![Default Locale Logo](https://raw.githubusercontent.com/UniQLab/default-locale/master/images/default_locale.png)
 
-# License
+## Installation
+
+```
+npm install default-locale --save
+```
+
+## Support
+
+Please, report bugs on the [issue tracker](https://github.com/UniQLab/default-locale/issues)
+
+## License
 
 The MIT License (MIT)
 
