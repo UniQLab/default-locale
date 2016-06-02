@@ -15,6 +15,54 @@
 npm install default-locale --save
 ```
 
+## Examples of usage
+
+Before starting to use this library, you need to prepare a config file and your localized resources.
+Make it easier. :muscle:
+
+>The structure of my folders with resources is
+> * res.js (default locale)
+> * res.en.js (english locale)
+> * res.ru.js (russian locale)
+
+**res.js**
+
+```javascript
+// Export must be the JSON object!
+module.exports = {
+	text: 'Hello World!'
+};
+```
+
+**Config file**
+
+```javascript
+'use strict'
+
+module.exports = path => {
+	return {
+		CONTEXT: path, // current path to the root folder. This folder must contain resources directory.
+		RESOURCE_FOLDER: 'resources', // the name of resource folder
+		RESOURCE_DEFAULT_FILE: 'res.js', // name of the file, which contain default localized resources
+		RESOURCE_FILE_PREFIX: 'res.', // prefix of localized files
+		RESOURCE_FILE_EXTENSION: '.js', // extensions of  of localized files
+		localeList: ['ru'] // the list of support locales
+	};
+};
+```
+**Main program**
+
+```javascript
+'use strict';
+
+const localeConfig = require('./localeConfig')(__dirname);
+const LocaleService = require('default-locale');
+
+LocaleService.init(localeConfig);
+console.log(LocaleService.getString('text'));
+console.log(LocaleService.getString('text', 'ru'));
+```
+
 ## Support
 
 Please, report bugs on the [issue tracker](https://github.com/UniQLab/default-locale/issues)
