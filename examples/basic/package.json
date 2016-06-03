@@ -1,0 +1,13 @@
+{
+  "name": "default-locale.example.basic",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Alexander Dadukin & Andrey Pavlov",
+  "scripts": {
+    "start": "node app.js",
+    "startTry": "node app.js"
+  },
+  "dependencies": {
+    "query-string": "^4.2.0"
+  }
+}
