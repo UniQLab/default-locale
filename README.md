@@ -11,9 +11,13 @@
 
 ## Installation
 
+Install it from [npm](https://www.npmjs.com/package/default-locale)
+
 ```
 npm install default-locale --save
 ```
+
+or check out the [wiki](https://github.com/UniQLab/default-locale/wiki) for documentation.
 
 ## Examples of usage
 
