@@ -1,6 +1,6 @@
 {
   "name": "default-locale",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Try to localize your application",
   "main": "index.js",
   "directories": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "string-builder": "^0.1.4",
     "underscore": "^1.8.3",
-    "validatron": "^0.8.0"
+    "validatron": "^0.8.5"
   },
   "devDependencies": {
     "chai": "^3.5.0",
